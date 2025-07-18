@@ -17,14 +17,15 @@ const About = () => {
           every project with creativity and precision.
         </p>
         <a
-          href="/Ved_Prakash_Singh_Resume.pdf"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="download-btn"
-          aria-label="View Resume"
-        >
-          View Resume <FiExternalLink style={{ marginLeft: '8px' }} />
-        </a>
+  href="/Ved_Resume.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="download-btn"
+  aria-label="View Resume"
+>
+  View Resume <FiExternalLink style={{ marginLeft: '8px' }} />
+</a>
+
       </div>
     </section>
   );

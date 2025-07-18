@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@deemlol/next-icons": "^0.1.9",
+    "@netlify/next": "^1.4.9",
     "framer-motion": "^12.16.0",
     "next": "15.3.3",
     "react": "^19.0.0",

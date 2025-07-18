@@ -37,13 +37,13 @@ nav ul {
 nav ul li a {
   text-decoration: none;
   font-family: 'Poppins', sans-serif;
-  color: #ccd6f6; /* light steel blue */
+  color: #00d8ff; /* light steel blue */
   transition: color 0.3s ease;
 }
 
 nav ul li a:hover {
   text-decoration: underline;
-  color: #00d8ff; /* bright cyan */
+  color: #ccd6f6; /* bright cyan */
 }
 
 .btn {
@@ -426,7 +426,6 @@ ul li {
   justify-content: center;
   align-items: center;
   background: linear-gradient(135deg, #dbeafe, #e0e7ff); /* soft blue/violet gradient */
-  height: 100vh;
   padding: 20px;
 }
 
