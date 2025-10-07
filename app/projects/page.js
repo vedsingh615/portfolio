@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'next/link';
 import Image from 'next/image';
 import podfolio from '../../public/podfolio.png';
-import hotel from '../../public/hotel.png';
+import Ecomm from '../../public/Ecomm.png';
 
 export const metadata = {
   title: "Projects | Portfolio", 
@@ -26,11 +26,12 @@ const page = () => {
                     <Link href="url-to-project-1" target="_blank" rel="noopener noreferrer" className='project-link'>View Project</Link>
                 </li>
                 <li className='project-item'>   
-                    <h2 className='project-name'>Project 2: Hotel Website</h2>
-                    <p> This is my first project and this hotel website help me to learn how to make website</p>
-                    <Image src={hotel} alt="Hotel Website"  className='project-image' />
+                    <h2 className='project-name'>Project 2: E-Commerce Website</h2>
+                    <p>Built a modern online shop using React with a responsive UI, dynamic product display, and cart
+                            interactions. Deployed the project on GitHub Pages for easy access and seamless performance.</p>
+                    <Image src={Ecomm} alt="E-commerce website"  className='project-image' />
                     <br />
-                    <Link href="https://vedsingh615.github.io/hotel/" target="_blank" rel="noopener noreferrer" className='project-link'>View Project</Link>
+                    <Link href="https://vedsingh615.github.io/shop/" target="_blank" rel="noopener noreferrer" className='project-link'>View Project</Link>
                 </li>
                 </ul></div>
             <p className='projects-contact'>
